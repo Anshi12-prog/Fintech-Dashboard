@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Calm, minimalist logo for ZenFinance: lotus + chart + currency -->
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="20" fill="#F8FEFF"/>
+
+  <!-- lotus petals (soft edges) -->
+  <g transform="translate(60,50)">
+    <path d="M0 -14 C8 -18, 20 -18, 28 -10 C18 -4, 12 6, 0 20 C-12 6, -18 -4, -28 -10 C-20 -18, -8 -18, 0 -14 Z" fill="#CFFCF0"/>
+    <path d="M0 -6 C6 -9, 14 -9, 20 -4 C12 0, 8 6, 0 12 C-8 6, -12 0, -20 -4 C-14 -9, -6 -9, 0 -6 Z" fill="#D9F2FF"/>
+  </g>
+
+  <!-- rising chart line (soft blue) -->
+  <path d="M28 78 C44 62, 56 68, 72 52" stroke="#89C9FF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="28" cy="78" r="4" fill="#89C9FF"/>
+  <circle cx="72" cy="52" r="4" fill="#89C9FF"/>
+
+  <!-- currency symbol (soft green) - stylized $ centered -->
+  <g transform="translate(60,58)">
+    <path d="M2 18 C2 14, -10 12, -10 6 C-10 0, 2 -2, 2 -6 C2 -10, -10 -12, -10 -16" stroke="#7FE3BF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M-6 -20 L-6 20" stroke="#7FE3BF" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- subtle ring -->
+  <circle cx="60" cy="60" r="44" stroke="#E6FBF0" stroke-width="6"/>
+</svg>

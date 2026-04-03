@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-gradient-to-b from-white via-[#F8FFFB] to-white text-gray-800 font-sans; transition: background-color 200ms ease, color 200ms ease; }
+
+/* Smooth color transitions for dark mode */
+.dark body { @apply bg-gradient-to-b from-gray-900 via-gray-900 to-gray-900 text-gray-100 }
+
+/* utility for subtle card/element transitions */
+.ui-transition { transition: background-color 180ms ease, color 180ms ease, transform 160ms ease; }
+
+.skeleton { background: linear-gradient(90deg, rgba(255,255,255,0.06) 25%, rgba(255,255,255,0.02) 37%, rgba(255,255,255,0.06) 63%); background-size: 400% 100%; animation: shimmer 1.2s linear infinite; }
+
+@keyframes shimmer { 0% { background-position: 200% 0 } 100% { background-position: -200% 0 } }
+
+/* page container similar to cozy layout */
+.app-container { max-width: 1100px; margin: 0 auto; }
+
+.card { @apply bg-white dark:bg-gray-800 rounded-3xl p-5 shadow-soft }
+
+.muted { @apply text-gray-500 dark:text-gray-400 }
+
+/* subtle background accent shapes */
+.bg-accent-blob { position: absolute; filter: blur(36px); opacity: 0.25; z-index: 0 }
+
+
